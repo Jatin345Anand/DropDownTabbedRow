@@ -5,47 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+     <!-- Compiled and minified CSS -->
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+  
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="custom.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="tabRow">
-            <ul>
-                <li id="t1">
+  
+    <div class="container"> 
+        <!-- tab_row_BOTTOM -->
+        <!-- tab_row_TOP -->
+        <!-- tab_row_LEFT -->
+        <h1>CUSTOM TABBED CONTAINER TAB ROW VIEWS</h1>
+    <!-- .tab_row_RIGHT -->
+        <div class="tab_row_RIGHT" id="tabRow">
+            <!-- <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed non atque omnis, illum magnam deserunt aut iusto quibusdam, ad quae odit nostrum soluta. Fugit, autem. Consequatur voluptates natus soluta dolorum!</h5> -->
+            <ul class="ulRight" id="uiR">
+                <li id="t1" class="liLR">
                     <div><span>Tab 1</span></div>
                 </li>
-                <li id="t2">
+                <li id="t2" class="liLR">
                     <div><span>Tab 2</span></div>
                 </li>
                 
-                <li id="t3">
+                <li id="t3" class="liLR">
                     <div><span>Tab 3</span></div>
                 </li>
-                <li id="t4">
+                <li id="t4" class="liLR">
                     <div><span>Tab 4</span></div>
                 </li>
-                <li id="t5">
+                <li id="t5" class="liLR">
                     <div><span>Tab 5</span></div>
                 </li>
-                <li id="t6">
+                <li id="t6" class="liLR">
                     <div><span>Tab 6</span></div>
                 </li>
-                <li id="t7">
+                <li id="t7" class="liLR">
                     <div><span>Tab 7</span></div>
                 </li>
-                <li id="t8">
+                <li id="t8" class="liLR">
                     <div><span>Tab 8</span></div>
                 </li>
-                <li id="t9">
+                <li id="t9" class="liLR">
                     <div><span>Tab 9</span></div>
                 </li>
-                <li id="t10">
+                <li id="t10" class="liLR">
                     <div><span>Tab 10</span></div>
-                </li>
+                </li> 
                 
             </ul>
         </div>
-    </div>
+        
+        <div id="buttoncontainer">
+            <button type="button" class="btn btn-warning" id="t">TOP</button> &nbsp;
+            <button type="button" class="btn btn-primary" id="b">BOTTOM</button> &nbsp;
+            <button type="button" class="btn btn-info" id="l">LEFT</button> &nbsp;
+            <button type="button" class="btn btn-success" id="r">RIGHT</button> &nbsp;
+    
+        </div>
+     </div>
+   
 </body>
 </html>
