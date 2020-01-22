@@ -58,8 +58,10 @@ h1{
     padding: 0px;
     position: absolute;
     list-style: none;
-    width: 100%;
-    right: 0%;
+    display:inline-grid;
+    width: auto;
+    top: 40px;
+    right: 0px;
     border: 2px solid greenyellow;
 }
 .liTB{
@@ -99,13 +101,9 @@ h1{
     /* border: 2px solid blue; */
 }
 .tab_row_LEFT{
-    position: absolute;
-    top: 50px;
-    left: 0%;
-    right: 1393px;
-    font-size: 23px;
+   
     height: 600px;
-    width: 112px;
+    width: auto;
     text-align: center;
     /* border: 2px solid blue; */
 }
